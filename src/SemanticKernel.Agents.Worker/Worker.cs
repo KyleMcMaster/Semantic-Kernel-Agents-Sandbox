@@ -1,4 +1,4 @@
-namespace SemanticKernel.Agents.Worker;
+namespace Agents.Sandbox.Worker;
 
 public class Worker : BackgroundService
 {
