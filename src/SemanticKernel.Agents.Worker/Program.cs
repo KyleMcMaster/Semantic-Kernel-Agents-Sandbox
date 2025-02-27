@@ -2,7 +2,7 @@ using Microsoft.SemanticKernel;
 using Agents.Sandbox.Worker;
 
 var builder = Host.CreateApplicationBuilder(args);
-builder.Services.AddHostedService<Worker>();
+//builder.Services.AddHostedService<Worker>();
 
 // Create a kernel with OpenAI chat completion capabilities
 string? apiKey = builder.Configuration.GetRequiredSection("OpenAISettings:Key").Value;
